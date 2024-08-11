@@ -7,6 +7,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body, html{
+    overflow-x: hidden;
+}
 a{
     text-decoration: none;
 }
@@ -88,6 +91,121 @@ header{
     display: none;
 }
 
+/* Events section */
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #49497e;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row{
+    margin-top: 50px;
+}
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+p{
+    color: #7c7c7c;
+    padding: 0px 40px;
+}
+.events .ctn{
+    margin-top: 30px;
+}
+
+/* ==== Explore section ==== */
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/bg2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1{
+    font-size: 7vmin;
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+.explore-content p{
+    color: #dddddd;
+}
+.explore-content .ctn{
+    margin-top: 40px;
+}
+
+/* ==== Tours section ==== */
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+}
+.tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.image-gallery img{
+    width: 300px;
+    margin: 10px;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #484872;
+}
+.content-col .line{
+    margin-left: -1px;
+}
+.content-col p{
+    padding: 0;
+    margin: 30px auto;
+}
+.content-col .ctn{
+    margin-left: -100px;
+}
+
+
+/* ==== Footer Section ==== */
+.footer{
+    width: 100%;
+    min-height: 100px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #484872;
+    text-align: center;
+}
+.footer p{
+    color: whitesmoke;
+    margin: 20px auto;
+}
 
 
 /* Mobile device */
@@ -123,4 +241,55 @@ header{
     .nav-links li{
         margin: 20px auto;
     }
+
+    /* ==== Events section ==== */
+    .row{
+        flex-direction: column;
+    }
+    .row .col{
+        margin: 20px auto;
+    }
+    .col img{
+        max-width: 90%;
+    }
+
+    /* ==== explore section ==== */
+    .explore-content{
+        width: 100%;
+    }
+
+    /* ==== Tours section ==== */
+    .tours .col{
+        width: 100%;
+    }
+    .image-gallery{
+        justify-content: center;
+        align-items: center;
+    }
+    .image-gallery img{
+        width: 90%;
+    }
+
+    /* ==== Footer section ==== */
+    .footer{
+        padding: 10px;
+    }
+}
+
+
+/* ==== Animations ==== */
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.ctn:hover{
+    background: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 5px #00000056 ;
+}
+li:hover{
+    color: #fc036b;
+    cursor: pointer;
 }

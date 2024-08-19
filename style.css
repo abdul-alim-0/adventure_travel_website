@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 body, html{
+    /* cursor: url("./cursor.cur"); */
     overflow-x: hidden;
 }
 a{

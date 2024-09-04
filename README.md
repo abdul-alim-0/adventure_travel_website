@@ -8,7 +8,7 @@ For more Website Follow Me ➡️ [GitHub](https://github.com/abdul-alim-0)<br><
 
 <h1 align="center"> Website Preview </h1>  
 
-### For Live Overview ➡️ [Portfolio Website](https://abdul-alim-0.github.io/adventure_travel_website/)<br>  
+### For Live Overview ➡️ [Travel Website](https://abdul-alim-0.github.io/adventure_travel_website/)<br>  
 
 
 <img src="./website_image/1.png" width="900">
